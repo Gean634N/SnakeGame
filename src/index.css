@@ -11,10 +11,20 @@
   border: 1px solid black;
 }
 
-.snake-part{
+.snake-part, .food{
   position: absolute;
   width: 4%;
   height: 4%;
+}
+
+.snake-part{
   background-color: black;
   border: 1px solid white;
+  z-index: 2;
+}
+
+.food{
+  background-color: red;
+  border: 1px solid white;
+  z-index: 1;
 }

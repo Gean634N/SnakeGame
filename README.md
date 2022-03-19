@@ -6,8 +6,8 @@ Um jogo baseado na famoso snake do nokia 6110.
 - Css
 
 ### Passos do projeto
-- [ ] Criar a tela de jogo
-- [ ] Criar snake
+- [X] Criar a tela de jogo
+- [X] Criar snake
 - [ ] Criar as comidas
 - [ ] Fazer a movimentação
 - [ ] Desemvolver a colizão
