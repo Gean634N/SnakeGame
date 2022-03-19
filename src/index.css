@@ -10,3 +10,11 @@
   height: 480px;
   border: 1px solid black;
 }
+
+.snake-part{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: black;
+  border: 1px solid white;
+}
