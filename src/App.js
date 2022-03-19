@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Snake from './components/Snake';
 
 function App() {
+
+  const initialSnakeParts = [
+    [0,0],
+    [4,0],
+  ]
+
+  const [snakeParts, setSnakeParts] = useState(initialSnakeParts);
+
   return (
     <div className="game-screen">
-      <div className="snake-part" style={{top:0, left:0}}></div>
+      <Snake snakeParts={snakeParts}/>
     </div >
   );
 }
